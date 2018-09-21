@@ -5,7 +5,7 @@ body {
 }
 
 .firstchar {
-  color: SlateBlue;
+  color: #6a5acd;
   float: left;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", serif; 
   font-weight: 250;
@@ -18,7 +18,7 @@ body {
 
 
 h3 {
-    border-left: 6px color SlateBlue;
+    border-left: 6px color #6a5acd;
     background-color: lightgrey;
     border-radius: 5px;
 }

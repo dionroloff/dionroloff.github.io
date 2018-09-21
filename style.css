@@ -22,7 +22,7 @@ body {
 
 
 h3 {
-    color: #6a5acd;
+    border-color: #6a5acd;
     border-left: 6px;
     background-color: lightgrey;
     border-radius: 5px;

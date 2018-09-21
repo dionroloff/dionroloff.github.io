@@ -1,12 +1,14 @@
 body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 250;
+   background-image: url("https://imgur.com/a/dPcI9pg");
 }
 
 .firstchar {
   color: #903;
   float: left;
-  font-family: Georgia;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 250;
   font-size: 75px;
   line-height: 60px;
   padding-top: 4px;

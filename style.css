@@ -9,8 +9,8 @@ body {
   float: left;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", serif; 
   font-weight: 250;
-  font-size: 75px;
-  line-height: 45px;
+  font-size: 50px;
+  line-height: 60px;
   padding-top: 4px;
   padding-right: 8px;
   padding-left: 3px;
@@ -18,8 +18,7 @@ body {
 
 
 h3 {
-    border-left: 6px;
-    border-color: #6a5acd;
+    border-left: 6px color SlateBlue;
     background-color: lightgrey;
     border-radius: 5px;
 }

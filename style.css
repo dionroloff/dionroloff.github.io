@@ -16,3 +16,10 @@ body {
   padding-left: 3px;
 }
 
+.section {
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+}
+

@@ -4,6 +4,10 @@ body {
  
 }
 
+#picture { 
+   float: right; margin: -30px 0 0 0;
+}
+
 .firstchar {
   color: #6a5acd;
   float: left;

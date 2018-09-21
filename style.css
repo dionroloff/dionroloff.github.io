@@ -18,7 +18,8 @@ body {
 
 
 h3 {
-    border-left: 6px color #6a5acd;
+    border-left: 6px;
+    border-color: #6a5acd;
     background-color: lightgrey;
     border-radius: 5px;
 }

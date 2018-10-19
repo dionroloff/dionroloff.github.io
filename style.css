@@ -18,7 +18,7 @@ h1{
     color: red;
 }
 
-h3 {
+.section {
   color: #ffffff;
   border-left: 6px;
   background-image: linear-gradient(to left bottom, #906274, #9f467f, #a02598, #8a00bd, #3812eb);  

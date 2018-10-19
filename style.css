@@ -35,45 +35,20 @@ h1{
   text-align: center;
 }
 
-.wrapper{
-    background-color: green;
-    font-family: 'Raleway', sans-serif;
-    margin: 100px auto;
-    padding: 40px 40px;
-    position: relative;
-    width: 70%;
+#spinner {
+  text-align: center;
+  animation-name: spin, depth;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
-
-.slidingVertical {
-	display: inline;
-	text-indent: 8px;
+@keyframes spin {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(-360deg); }
 }
-.slidingVertical span {
-	animation: topToBottom 12.5s linear infinite 0s;
-	-ms-animation: topToBottom 12.5s linear infinite 0s;
-	-webkit-animation:move: topToBottom 12.5s linear infinite 0s;
-	color: #00abe9;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-}
-.slidingVertical span:nth-child(2) {
-	animation-delay: 2.5s;
-	-ms-animation-delay: 2.5s;
-	-webkit-animation-delay: 2.5s;
-}
-.slidingVertical span:nth-child(3) {
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
-}
-.slidingVertical span:nth-child(4) {
-	animation-delay: 7.5s;
-	-ms-animation-delay: 7.5s;
-	-webkit-animation-delay: 7.5s;
-}
-.slidingVertical span:nth-child(5) {
-	animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	-webkit-animation-delay: 10s;
-}
+@keyframes depth {
+  0% { text-shadow: 0 0 black; }
+  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
+  50% { text-shadow: 0 0 black; }
+  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
+  100% { text-shadow: 0 0 black; }

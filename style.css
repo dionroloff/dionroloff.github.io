@@ -29,7 +29,8 @@ h1{
   text-align: center;
 }
 
-#copyright {
+footer {
   color: #ffffff;
   font-size: 0.75rem;
+  text-align: center;
 }

@@ -36,7 +36,7 @@ h1{
   text-align: center;
 }
 
-#spinner {
+.spinner {
   text-align: center;
   animation-name: spin, depth;
   animation-timing-function: linear;

@@ -1,17 +1,28 @@
 body {
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-   font-weight: 250;
- 
+  font-family: "HelveticaNeue-Light", sans-serif; 
+  font-weight: 250;
+  text-align: left;
+  padding:20px;
+  width:340px;
+  margin: 0 auto;
+  border:30px solid transparent;
+  border-image:url(https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png) 30 30 round;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  color: white;
 }
 
-#picture { 
-   float: right; margin: -30px 0 0 0;
+h1{
+    font-family: Satisfy, cursive;
+    font-weight:normal;
+    font-size: 50px;
+    color: red;
 }
 
 h3 {
-    color: #6a5acd;
-    border-left: 6px;
-    background-color: lightgrey;
-    border-radius: 5px;
+  color: #ffffff;
+  border-left: 6px;
+  background-image: linear-gradient(to left bottom, #370519, #590035, #730062, #7600a0, #3812eb);background-image: linear-gradient(to left bottom, #906274, #9f467f, #a02598, #8a00bd, #3812eb);  font-family: Satisfy, cursive;
+  font-weight:normal;
+  font-size:24px;
 }
 

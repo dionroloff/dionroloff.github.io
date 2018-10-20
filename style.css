@@ -41,7 +41,7 @@ h1{
   animation-name: spin, depth;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  animation-duration: 3s;
+  animation-duration: 6s;
 }
 @keyframes spin {
   from { transform: rotateY(0deg); }

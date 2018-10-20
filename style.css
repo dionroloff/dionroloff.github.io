@@ -2,22 +2,22 @@ body {
   font-family: "HelveticaNeue-Light", sans-serif; 
   font-weight: 250;
   text-align: left;
-  padding:20px;
-  width:340px;
+  padding: 20px;
+  width: 340px;
   margin: 0 auto;
-  border:30px solid transparent;
-  border-image:url(https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png) 30 30 round;
+  border: 30px solid transparent;
+  border-image: url(https://demo.tutorialzine.com/2013/10/css3-features-you-can-finally-use/assets/img/border.png) 30 30 round;
   background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   color: #ffffff;
   perspective: 500px;
 }
 
-h1{
-    font-family: Satisfy, cursive;
-    font-weight:normal;
-    font-size: 50px;
-    color: red;
-    text-align: center;
+h1 {
+  font-family: Satisfy, cursive;
+  font-weight:normal;
+  font-size: 50px;
+  color: red;
+  text-align: center;
 }
 
 .section {
@@ -25,8 +25,8 @@ h1{
   border-left: 6px;
   background-image: linear-gradient(to left bottom, #906274, #9f467f, #a02598, #8a00bd, #3812eb);  
   font-family: Satisfy, cursive;
-  font-weight:normal;
-  font-size:24px;
+  font-weight: normal;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -43,13 +43,29 @@ h1{
   animation-iteration-count: infinite;
   animation-duration: 6s;
 }
+
 @keyframes spin {
-  from { transform: rotateY(0deg); }
-  to { transform: rotateY(-360deg); }
+  from { 
+    transform: rotateY(0deg); 
+  }
+  to { 
+    transform: rotateY(-360deg); 
+  }
 }
+
 @keyframes depth {
-  0% { text-shadow: 0 0 black; }
-  25% { text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; }
-  50% { text-shadow: 0 0 black; }
-  75% { text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; }
-  100% { text-shadow: 0 0 black; }
+  0% { 
+    text-shadow: 0 0 black; 
+  }
+  25% { 
+    text-shadow: 1px 0 black, 2px 0 black, 3px 0 black, 4px 0 black, 5px 0 black; 
+  }
+  50% { 
+    text-shadow: 0 0 black; 
+  }
+  75% { 
+    text-shadow: -1px 0 black, -2px 0 black, -3px 0 black, -4px 0 black, -5px 0 black; 
+  }
+  100% {
+    text-shadow: 0 0 black; 
+  }
